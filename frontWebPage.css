@@ -9,6 +9,7 @@ body{
   color: #4ea8c2;
   font-family: gg sans; 
   margin: 0;
+  font-size: min(5vw, 1.2em);
 }
 
 /* color: #2b5f6d; (alternate color)*/
@@ -16,6 +17,7 @@ body{
 #logo{
   width: max(60px, 5vw);
   padding: 0.4rem;
+  border-radius: 20%; 
 }
 
 header{
@@ -30,17 +32,21 @@ header{
   font-family: gg sans; 
   align-items: center;
   top: 0; 
-  border: 1px solid black; 
+  border: 1px solid black;
+  width: 100%; 
 }
 
 nav{
   display: flex;
   justify-content: space-evenly; 
+  width: 50%; 
 }
 
-nav > p > a{
+nav > a{
+  padding: 5px; 
   display: flex-horizontal;
   justify-content: space-evenly;
+  border: 3px solid black; 
 }
 
 h1{
