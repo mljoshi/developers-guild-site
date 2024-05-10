@@ -2,4 +2,3 @@
 document.querySelectorAll('a').forEach(anchor => {
   anchor.style.textDecoration = 'none';
 }); 
-

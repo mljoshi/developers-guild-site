@@ -1,1 +1,1 @@
-Creating a website for the Developers' Guild club
+A website for the Developers' Guild club
