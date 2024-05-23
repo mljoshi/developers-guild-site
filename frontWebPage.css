@@ -14,6 +14,10 @@ h1 {
   color: #ffffff;
 }
 
+p {
+  font-family: "Lucida Console", "Courier New", monospace;
+  color: #4ea8c2;
+}
 body{
   background: #2f3136;
   color: #4ea8c2;
