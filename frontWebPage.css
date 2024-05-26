@@ -9,18 +9,19 @@
   src: url(circular.ttf) format('truetype');
 }
 
-h1 {
-  font-family: circular, Arial, Helvetica, sans-serif;
-  color: #ffffff;
-}
-
 p {
   font-family: "Lucida Console", "Courier New", monospace;
   color: #4ea8c2;
 }
 
+h2 {
+  border-bottom: 4px solid #878787;
+  margin-top: 0px;
+  padding-top: 60px;
+}
+
 body{
-  background: #2f3136;
+  background: #ffffff;
   color: #4ea8c2;
   font-family: circular, Arial, Helvetica, sans-serif;
   margin: 0;
@@ -38,40 +39,38 @@ body{
 }
 
 header{
+  top: 0; 
   position: fixed;
-  background: #34373c;
-  padding-bottom: 5px;
-  padding-top: 5px;
-  padding-left: 15px; 
-  padding-right: 15px; 
+  background: #ffffff;
+  padding-top: 0.5%;
+  padding-left: 0.5%;  
   display: flex; 
   color: #ffffff;
   font-family: gg sans; 
   align-items: center;
-  top: 0; 
-  border-bottom: 1px solid black;
-  width: 100%; 
+  width: 100%;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
 
 nav{
   display: flex;
   justify-content: right; 
   width: 82%; 
-  margin-right: 2%
+  margin-right: 2%;
 }
 
 header > nav > a{
-  padding: 3px; 
   display: flex;
+  align-items: center;
   justify-content: center;
+  text-decoration: none;
+  color: #34373c;
   border: 2px solid #878787; 
-  color: #ffffff;
+  border-radius: 20px;
   width: 10%; 
+  padding: 0.25%; 
   margin-left: 1%; 
   font-family: circular, Arial, Helvetica, sans-serif;
-  align-items: center;
-  border-radius: 15%;
-  text-decoration: none;
 }
 
 header > nav > a:hover {
@@ -80,15 +79,12 @@ header > nav > a:hover {
   cursor: pointer;
 }
 
-header > h1{
-  color: #4ea8c2;
-  font-size: min(20vw, 1.6em);
-}
-
-h2 {
-  border-bottom: 4px solid #878787;
-  margin-top: 0px;
-  padding-top: 60px;
+.hero {
+  display: block;
+  margin-left: auto;
+  margin-right:auto;
+  margin-top: 7%;
+  width: 50%;
 }
 
 section {
@@ -102,13 +98,6 @@ footer{
   margin-top: 60px; 
 }
 
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right:auto;
-  margin-top: 7%;
-  width: 50vw;
-}
 
 .text-center {
   text-align: center;
@@ -119,8 +108,6 @@ footer{
   overflow-x: auto;
   white-space: nowrap;
 }
-
-
 
 .picture-container::-webkit-scrollbar-track
 {
