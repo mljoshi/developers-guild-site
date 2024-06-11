@@ -19,7 +19,23 @@ h2 {
   color: #34373c;
 }
 
-.body h2 {
+.about-us{
+  align-self: center;
+  text-align: center; 
+  width: 90%;
+  margin: 0 auto 10px auto;
+  color: #4ea8c2;
+}
+
+.about-us-h2{
+  border-bottom: 4px solid #878787;
+  margin: 0 auto 50px auto;
+  text-align: center;
+  width: 20%;
+  color: rgb(0, 0, 0);
+}
+
+section > h2 {
   border-bottom: 4px solid #878787;
 }
 
@@ -30,7 +46,6 @@ h3 {
 
 body{
   background: #ffffff;
-  color: #4ea8c2;
   font-family: circular, Arial, Helvetica, sans-serif;
   margin: 0;
   font-size: min(5vw, 1.2em);
