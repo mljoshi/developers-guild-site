@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
     <title>Developers' Guild Website</title>
+    <meta charset="utf-8">
+    <meta name="author" content="Avin Rai">
+    <meta name="viewport" content="width=device-width">
     <link rel="shortcut icon" type="image/x-icon" href="https://i.ibb.co/JR1YcsZ/image-9.png"> <!--website tab icon-->
     <script src="https://kit.fontawesome.com/1165876da6.js" crossorigin="anonymous"></script> <!--footer icons-->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script> <!--typing animations-->
     <script src="frontWebPage.js"></script>
     <link href="styles.css" rel="stylesheet">
   </head>  
@@ -16,7 +18,6 @@
         <img id="logo" src="https://lh3.googleusercontent.com/drive-viewer/AKGpihZC0dMO48MrkO2YoforAk1W-Qnv8f2JW2FtoATxm6N2pD5hTVD4i-VDPojBKoUCR4NDyM-ffMuccQo6i1EU67BbdpIBNTlg0Q=w1919-h926-rw-v1">
       </a>
     <nav>
-        <!--<a href="aboutUs.html">about us</a>-->
         <a href="officers.html">officers</a>
         <a href="projects.html">projects</a>
         <a href="https://discord.gg/99B6YUu3cG" target="_blank">join</a>
@@ -24,10 +25,38 @@
     </header>
 
     <main class = "body">
-      <section id="region" aria-labelledby="image-and-caption">
-        <img src="images/hero.png" alt="MainImage" class="hero">
-        <h1 class="text-center"> Welcome to the largest programming club on campus!</h1>      
+      <section id="region" aria-labelledby="hero">
+        <img src="images/hero.png" alt="MainImage" class="main-image">
+        <span id="typed"></span>
+        <script>
+          var typed = new Typed("#typed", {
+            strings: [
+              "Become a better coder",
+              "Become a better developer",
+              "Become a better programmer",
+              "Become a better hacker",
+              "Become a better student",
+              "Become a better software engineer",
+              "Become a better computer scientist"
+            ],
+            typeSpeed: 80,
+            backSpeed: 80,
+            smartBackspace: true,
+            shuffle: true,
+            backDelay: 1000,
+            loop: true,
+            loopCount: Infinity,
+          });
+        </script>
       </section>
+
+      <h2 class = "about-us-h2">
+        About Us
+      </h2>
+      <p class = "about-us">
+        Welcome to the largest programming club on campus! The Developers' Guild aims to explore Computer Science through hands-on experience. As a guild we strive to become involved with the Silicon Valley community to connect with all the opportunities around us. 
+        Members are strongly encouraged to contribute ideas and questions to form a collaborative atmosphere.
+      </p>
 
       <section role="region" aria-labelledby="upcoming-Events">
         <h2 id="events">Upcoming Events</h2>
@@ -52,15 +81,6 @@
           <img class="container-picture" src="https://upload.wikimedia.org/wikipedia/en/4/4d/Shrek_%28character%29.png">
         </div>
       </section>
-
-      <h2 class = "about-us-h2">
-        About Us
-      </h2>
-      <p class = "about-us">
-        The Developers' Guild aims to explore Computer Science through hands-on experience. As a guild we strive to become involved with the Silicon Valley community to connect with all the opportunities around us. 
-        Members are strongly encouraged to contribute ideas and questions to form a collaborative atmosphere.
-      </p>
-
     </main>
 
     <footer>

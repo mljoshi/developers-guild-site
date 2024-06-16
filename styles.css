@@ -19,23 +19,41 @@ h2 {
   color: #34373c;
 }
 
-.about-us{
-  align-self: center;
-  text-align: center; 
-  width: 90%;
-  margin: 0 auto 10px auto;
-  color: #4ea8c2;
+#typed {
+  position: absolute;
+  display: flex;
+  overflow: flex;
+  white-space: nowrap;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 8vh;
+  color: white;
+  filter: drop-shadow(0px 10px 20px #000000);
+  text-shadow: rgba(0, 255, 242, 0.8) 0px 0px 60px;
 }
 
 .about-us-h2{
+  font-size: xxx-large;
   border-bottom: 4px solid #878787;
-  margin: 0 auto 50px auto;
+  margin-left: auto;
+  margin-right: auto;
   text-align: center;
   width: 20%;
-  color: rgb(0, 0, 0);
+  margin-bottom: 2vh;
 }
 
-section > h2 {
+.about-us{
+  margin-top: 0;
+  font-size: xx-large;
+  text-align: center; 
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  color: #4ea8c2;
+}
+
+#events {
   border-bottom: 4px solid #878787;
 }
 
@@ -53,7 +71,7 @@ body{
   margin-top: 5%;
 }
 
-.text-center {
+#officer-title {
   text-align: center;
   margin-top: 7%;
 }
@@ -103,7 +121,7 @@ header > nav > a:hover {
   cursor: pointer;
 }
 
-.hero {
+.main-image {
   display: block;
   margin-left: auto;
   margin-right:auto;
@@ -137,7 +155,7 @@ section {
 .picture-container::-webkit-scrollbar-thumb {
   border-radius: 10px;
   -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
-  background-color: #4ea8c2;
+  background-color: #4ca8c2;
 }
 
 .container-picture {
@@ -152,26 +170,29 @@ section {
 #officers {
   display: flex;
   flex-wrap: wrap;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .officer {
-  margin-top: 2%;
   text-align: center;
   flex: 1 1 calc(33.33% - 40px)
 }
 
 .officer p {
   font-size: 150%;
-  margin: 0%;
+  margin: 0vh;
   color: #34373c;
+}
+
+.title {
+  font-style: normal;
+  font-family: 'Franklin Gothic Medium', Arial, sans-serif;
 }
 
 .pfp {
   width: 300px;
   border-radius: 50%;
-  margin-bottom: 2vh;
+  margin-top: 7vh;
+  margin-bottom: 1vh;
 }
 
 
