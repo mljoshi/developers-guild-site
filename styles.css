@@ -19,6 +19,49 @@ h2 {
   color: #34373c;
 }
 
+#logo{
+  width: max(300px, 5vw);
+  padding: 0.4rem;
+  border-radius: 20%; 
+}
+
+header{
+  top: 0; 
+  position: fixed;
+  background: #ffffff;
+  padding-top: 0.5%;
+  padding-left: 0.5%;  
+  display: flex; 
+  color: #ffffff;
+  font-family: gg sans; 
+  align-items: center;
+  width: 100%;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+nav{
+  display: flex;
+  justify-content: right; 
+  width: 82%; 
+  margin-right: 2%;
+}
+
+header > nav > a{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: #34373c;
+  padding: 0.25%; 
+  margin-left: 1%; 
+  font-family: circular, Arial, Helvetica, sans-serif;
+}
+
+header > nav > a:hover {
+  color: #3aa0a0;
+  cursor: pointer;
+}
+
 #typed {
   position: absolute;
   display: flex;
@@ -77,49 +120,6 @@ body{
 }
 
 /* color: #2b5f6d; (alternate color)*/
-
-#logo{
-  width: max(300px, 5vw);
-  padding: 0.4rem;
-  border-radius: 20%; 
-}
-
-header{
-  top: 0; 
-  position: fixed;
-  background: #ffffff;
-  padding-top: 0.5%;
-  padding-left: 0.5%;  
-  display: flex; 
-  color: #ffffff;
-  font-family: gg sans; 
-  align-items: center;
-  width: 100%;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
-}
-
-nav{
-  display: flex;
-  justify-content: right; 
-  width: 82%; 
-  margin-right: 2%;
-}
-
-header > nav > a{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-decoration: none;
-  color: #34373c;
-  padding: 0.25%; 
-  margin-left: 1%; 
-  font-family: circular, Arial, Helvetica, sans-serif;
-}
-
-header > nav > a:hover {
-  color: #3aa0a0;
-  cursor: pointer;
-}
 
 .main-image {
   display: block;
