@@ -298,3 +298,16 @@ li {
 .bottom-bar {
   color: white;
 }
+
+
+
+#pastProjects, #onGoingProjects{
+  font-size: 4vh;
+}
+#dgwebsiteHeader, #dahacksHeader, #interviewprepHeader {
+  font-size: 3vh;
+}
+
+#dgwebsiteP, #dahacksP, #interviewprepP {
+  font-size: 2vh;
+}
