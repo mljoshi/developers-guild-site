@@ -26,6 +26,7 @@ h2 {
 }
 
 header{
+  z-index: 100;
   top: 0; 
   position: fixed;
   background: #ffffff;
