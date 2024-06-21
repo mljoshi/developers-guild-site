@@ -6,7 +6,7 @@
 
 @font-face {
   font-family: circular;
-  src: url(circular.ttf) format('truetype');
+  src: url(assets/fonts/circular.ttf) format('truetype');
 }
 
 h1 {
