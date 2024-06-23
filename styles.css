@@ -97,7 +97,7 @@ header > nav > a:hover {
   color: #4ea8c2;
 }
 
-#events {
+#events, #past-speakers {
   border-bottom: 4px solid #878787;
 }
 
